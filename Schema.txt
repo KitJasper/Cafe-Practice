@@ -1,0 +1,34 @@
+
+CUSTOMERS
+- customerID int(11)
+- customerName varchar(11)
+- customerAge int(2)
+
+COFFEE
+- coffeeID
+- coffeeName 
+(espresso, americano, latte, capuccino, mocha, matcha)
+- coffeePrice
+
+DESSERT
+- dessertID 
+- dessertName 
+(cheesecake, choco cake, cupcake, cinnamon roll, milkshake)
+- dessertprice
+
+VIAND
+- viandID
+- viandName 
+(waffles, pancakes, cheese toast, french fries, vegetable salad)
+- viandPrice
+
+ORDERS
+- orderID
+- customerID
+- foodID
+- dessertID
+- viandID
+- quantity
+- orderDate
+- totalPrice
+

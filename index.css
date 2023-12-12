@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid red;*/
+}
+h1.title{
+    padding: .5% 0 0 1%;
+}
+.container{
+    padding: 1% 5%;
+}
+.wrapper{
+    margin-bottom: 2%;
+}
+p{
+    margin: 1% 0;
+    text-align: justify;
+}
+.row{
+    padding: 0 1%;
+}
+form{
+    padding: 0 1%;
+    width: 100%;
+}
+form button{
+    padding: 1.5%;
+    margin: 20px 0;
+    width: 95%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+form button.action{
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+fieldset{
+    width: 33.33%;
+    text-align: center;
+}
+fieldset div{
+    text-align: left !important;
+}
+.modal-btn{
+    background-color: #5cf562;
+}
+.submit-btn{
+    background-color: #e6ef86;
+}
+.view-btn{
+    background-color: #83d3e8;
+}
